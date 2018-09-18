@@ -1,0 +1,121 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+ /*  Navbar  */
+.navbar {
+    height: 70px;
+    position: fixed;
+}
+.navbar a {
+    color: white;
+    font-size: 28px;
+    margin: 8px;
+    padding-top: 5px;
+}
+.inline li{
+    display: inline;
+}
+.inline li a:hover {
+    color: #ffc600;
+}
+.links li a:active {
+    background-color: #ffc600;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.hide {
+    display: none;
+}
+ /*  Black Curtain  */
+#hero {
+    height: 75vh;
+    background: #1b1b1b;
+    position: relative;
+    width: 100%;
+    transition: all 0.4s ease-out 0.9s;
+}
+#hero .inner {
+    width: 100%;
+    height: 45vh;
+}
+#hero .hero-title {
+    text-align: center;
+    max-width: 400px;
+    margin: 0px auto;
+    font-size: 50px;
+    color:#ffffff;
+    font-family: 'Comfortaa', cursive;
+}
+#hero-image {
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    background: center center no-repeat fixed;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+#hero-image.bgrelative {   
+    position: relative;
+    background: center center no-repeat scroll;
+}
+.fa-arrow-circle-down {
+    font-size: 100px;
+}
+#image-border-left {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    background: #1b1b1b;
+}
+#image-border-right {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 500px;
+    background: #1b1b1b;
+}
+/*  Main content text */
+#main-content {
+    width: 600px;
+    height: 300px;
+    margin-top: 26px;
+    color: white;
+    text-align: center;
+}
+.namet {
+    transform: translateX(-27px);
+}
+.namet span{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px 0px 10px 10px;
+    padding: 6px 14px;
+    line-height: 112px;   
+}
+.nameb span{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px 10px 10px 0px;
+    padding: 6px 14px; 
+}
+.desc {
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 0 0 10px black;
+}
+
